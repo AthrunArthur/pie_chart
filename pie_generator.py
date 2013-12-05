@@ -129,6 +129,6 @@ if __name__== '__main__':
             'Item5': 10,
             'Item6': 3,
             'Item7': 2}
-    pcg = PieChartGenerator(os.getcwd() + '/tt.png', 3)
+    pcg = PieChartGenerator(os.getcwd() + '/sample.png', 2)
     pcg.generate_pie(data)
     
